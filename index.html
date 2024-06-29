@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>home</title>
+</head>
+<body>
+    <header>
+        <label class="company">
+            <img src="https://www.zeuslearning.com/c/img/quantum/laptop-1366/Quantum%20Logo.svg">
+        </label>
+        <ul class="menu">
+            <li>DASHBOARD</li>
+            <li>CONTENT</li>
+            <li>USER</li>
+            <li>REPORT</li>
+            <li>ADMIN</li>
+        </ul>
+        <div class="icons">
+            
+            <span class="notifyicon">
+                <img src="./icons/icons/alerts.svg">
+            </span>
+            <div class='notify' data-state="closed">
+                    <!--<div class='content'>
+                        <div>
+                            <span>wilson kumar</span>
+                            <span></span>
+                        </div>
+                        <p>No class held</p>
+                        <div>
+                            <span>15-Sep-2018 at 07:21 pm</span>
+                        </div>
+                    </div>
+                    <div class='content' data-state="true">
+                        <div>
+                            <span>wilson kumar</span>
+                            <span></span>
+                        </div>
+                        <p>No class held</p>
+                        <div>
+                            <span></span>
+                            <span>15-Sep-2018 at 07:21 pm</span>
+                        </div>
+                    </div>-->
+                    <div class="noti-btn">
+                        <button>show all</button>
+                        <span>|</span>
+                        <button>create new</button>
+                    </div>
+            </div>  
+                
+            <span class="announce">
+                <img src="./icons/icons/announcements.svg">
+            </span>
+            <div class='anouncement' data-state="closed">
+                    <!--<div class='content' data-state="false">
+                        <div>
+                            <span>wilson kumar</span>
+                            <span></span>
+                        </div>
+                        <p>No classes will be held on 21st Nov</p>
+                        <span>course:course</span>
+                        <div>
+                            <span></span>
+                            <span>2 files are attached</span>
+                            <span>15-Sep-2018 at 07:21 pm</span>                           
+                        </div>
+                    </div>
+                    <div class='content' data-state="true">
+                        <div>
+                            <span>wilson kumar</span>
+                            <span></span>
+                        </div>
+                        <p>No classes will be held on 21st Nov</p>
+                        <div>
+                            <span></span>
+                            <span>2 files are attached</span>
+                            <span>15-Sep-2018 at 07:21 pm</span>
+                        </div>
+                    </div> -->
+                    <div class="noti-btn">
+                        <button>show all</button>
+                        <span>|</span>
+                        <button>create new</button>
+                    </div>
+            </div>  
+            
+            <img src="https://dayproof.com.au/wp-content/uploads/sites/5/2023/10/testimonial-1.png">
+        </div>
+        <span class="material-symbols-outlined" id="m-icon">
+            menu
+        </span>
+        <div class="drop-down" id="drop-down" data-state="closed">
+            <ul class="menu-list">
+                <li>DASHBOARD</li>
+                <li>CONTENT
+                    <ul>
+                        <li>course content</li>
+                    </ul>
+                </li>
+                <li>USER
+                    <ul>
+                        <li>user 1</li>
+                        <li>user 2</li>
+                        <li>user 3</li>
+                        <li>user 4</li>
+                    </ul>
+                </li>
+                <li>REPORT
+                    <ul>
+                        <li>report</li>
+                    </ul>
+                </li>
+                <li>ADMIN
+                    <ul>
+                        <li>Admin</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class='course-classes'>
+        <div class='course' data-current>
+            <span class="material-symbols-outlined">
+                book
+            </span>
+            <span class='text'> 4 </span>
+            <span id='text'>Courses</span>
+        </div>
+        <div class="course">
+            <span class="material-symbols-outlined">
+                group
+            </span>
+            <span class='text'> 4 </span>
+            <span id='text'>Courses</span>
+        </div>
+    </div>
+    <div class='show'>
+        <span>showing 4 of 4 courses </span>
+        <div class='select-sort'>
+            <label>Sort By:</label>
+            <select name="">
+                <option value="">Course Name</option>
+                <option value="">Acceleration</option>
+                <option value="">Displacement</option>
+                <option value="">Mathematics</option>
+                <option value="">Biology</option>
+            </select>
+            <span class="material-symbols-outlined">
+                
+            </span>
+        </div>
+    </div>
+    <main>
+            <!-- <div class='content-card'>
+                <div class='card'>
+                    <div class="image">
+                        <img src="images/images/imageMask.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class='card-content-head' data-starred>
+                            <h3 class="head">Acceleration</h3>
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                        </div>
+                        <div class="info">
+                            <span>Physics </span>
+                            <span>|</span>
+                            <span>Grade 7 <span>+2</span></span>
+                        </div>
+                        <div class="info">
+                            <span class="no">4</span>
+                            <span>Units</span>
+                            <span class="no">18 </span>
+                            <span>Lessons</span>
+                            <span class="no">24 </span>
+                            <span>Topics</span>
+                        </div>
+                        <select name="class">
+                            <option value="">MR. Frank's Class B</option>
+                        </select><br>
+                        <span>50 students | 21-Jan-2020 - 21-Aug-2020</span>
+                    </div>
+                </div>
+                <div class='content-icons'>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/preview.svg">
+                    </span>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/manage course.svg">
+                    </span>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/grade submissions.svg">
+                    </span>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/reports.svg">
+                    </span>
+                </div>
+            </div>
+            <div class='content-card'>
+                <div class='card'>
+                    <div class="image">
+                        <img src="images/images/imageMask-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class='card-content-head' data-starred>
+                            <h3>Displacement, Velocity and Speed</h3>
+                            <span class="material-symbols-outlined">star</span>
+                        </div>
+                        <div class="info">
+                        <span>Physics 2</span>
+                        <span>|</span>
+                        <span>Grade 6 <span>+3</span></span>
+                        </div>
+                        <div class="info">
+                        <span class="no">2</span>
+                        <span>Units</span>
+                        <span class="no">15 </span>
+                        <span>Lessons</span>
+                        <span class="no">20 </span>
+                        <span>Topics</span>
+                        </div>
+                        <select  name="" disabled>
+                            <option value="">No classes</option>
+                        </select><br>
+                    </div>
+                </div>
+                <div class='content-icons'>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/preview.svg">
+                    </span>
+                    <span class="material-symbols-outlined" data-unstared="">
+                        <img src="../home-page/icons/icons/manage course.svg">
+                    </span>
+                    <span class="material-symbols-outlined" data-unstared="">
+                        <img src="../home-page/icons/icons/grade submissions.svg">
+                    </span>
+                    <span class="material-symbols-outlined chart-icon">
+                        <img src="../home-page/icons/icons/reports.svg">
+                    </span>
+                </div>
+            </div>
+            <div class='content-card'>
+                <div class='card'>
+                    <div class="image">
+                        <img src="images/images/imageMask-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class='card-content-head' data-starred>
+                            <h3>Introduction to Biology: Micro organisms and how they affect and world</h3>
+                            <span class="material-symbols-outlined">star</span>
+                        </div>
+                        <div class="info">
+                            <span>Biology </span>
+                            <span>|</span>
+                            <span> Grade 4 <span>+1</span></span>
+                        </div>
+                        <div class="info">
+                            <span class="no">5</span>
+                            <span>Units</span>
+                            <span class="no">16 </span>
+                            <span>Lessons</span>
+                            <span class="no">22 </span>
+                            <span>Topics</span>
+                        </div>
+                        <select  name="">
+                            <option value="">All classes</option>
+                        </select><br>
+                        <span>300 students </span>
+                    </div>
+                </div>
+                <div class='content-icons'>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/preview.svg">
+                    </span>
+                    <span class="material-symbols-outlined" data-unstared>
+                        <img src="../home-page/icons/icons/manage course.svg">
+                    </span>
+                    <span class="material-symbols-outlined" data-unstared="">
+                        <img src="../home-page/icons/icons/grade submissions.svg">
+                    </span>
+                    <span class="material-symbols-outlined chart-icon">
+                        <img src="../home-page/icons/icons/reports.svg">
+                    </span>
+                </div>
+            </div>
+            <div class='content-card' data-expired>
+                <div class='card'>
+                    <div class="image">
+                        <img src="images/images/imageMask-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class='card-content-head'>
+                            <h3>Introduction to High School Mathematics</h3>
+                            <span class="material-symbols-outlined">star</span>
+                        </div>
+                        <div class="info">
+                        <span>Mathematics </span>
+                        <span>|</span>
+                        <span>Grade 8 <span>+3</span></span>
+                        </div>
+                        <select name="">
+                            <option value="">Mr Frank's Class</option>
+                        </select><br>
+                        <span>44 students | 14-oct-2019 - 20-oct-2019</span>
+                    </div>
+                </div>
+                <div class='content-icons'>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/preview.svg">
+                    </span>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/manage course.svg">
+                    </span>
+                    <span class="material-symbols-outlined">
+                        <img src="../home-page/icons/icons/grade submissions.svg">
+                    </span>
+                    <span class="material-symbols-outlined chart-icon">
+                        <img src="../home-page/icons/icons/reports.svg">
+                    </span>
+                </div>
+            </div> -->
+        
+    </main>
+    <footer>
+        <div class="about">About | Contact Us</div>
+        <div class="logo">
+            <img src="./icons/icons/logo used in footer.svg">
+            <span >  |   Copyright © 2024 </span>
+            <span >Zeus Systems Pvt. Ltd.</span>
+            <span > All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
